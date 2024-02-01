@@ -1,6 +1,3 @@
-Real Estate Website - MERN Stack Project
-
-Build an impressive, responsive real estate website from scratch with this comprehensive MERN (MongoDB, Express.js, React, Node.js) stack project. Learn React hooks, React Router, modern CSS, Framer Motion, and more to create a polished and feature-rich application.
 Key Features
 
     React Hooks & Router: Master state management and create smooth navigation with React hooks and Router.
