@@ -1,0 +1,77 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* LIGHT CONTAINER */
+.hero-left {
+    gap: 3rem;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title > h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orange-circle {
+    width: 4rem; /* Fix: Specify width instead of height */
+    height: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 28%;
+    top: -10%;
+    z-index: -1;
+}
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+.search-bar>input{
+     border: none;
+     outline: none;
+}
+
+.stats{
+    width:100%;
+    justify-content: space-between;
+    font-size: 32px;
+
+}
+.stat>:nth-child(1){
+    font-size: 2ream;
+}
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+}
+
+
+/* RIGHT CONTAINER */
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgb(255, 255, 255, 0.12);
+}
+
+.image-container > img {
+    width: 100%;
+    height: 100%;
+}
