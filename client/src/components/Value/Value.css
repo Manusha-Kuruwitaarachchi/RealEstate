@@ -41,3 +41,19 @@ gap: 0.5rem;
 .accordionButton .primaryText{
     font-size: 1.1rem;
 }
+
+@media (max-width: 1024px) {
+    .v-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .v-right{
+        justify-content: center;
+        
+    }
+    @media (max-width:768px) {
+        .accordionButton .primaryText{
+            font-size: 0.8rem;
+        }
+    }
+}
